@@ -31,7 +31,7 @@ public class OrderService {
     }
     public void showProducts(){
         Iterator<Integer> nameOfProducts=dataOfProducts.keySet().iterator();
-        System.out.println("--- COFFEES ---");
+        System.out.println("0.CIXIS\n--- COFFEES ---");
         while (nameOfProducts.hasNext()){
             Products currentProduct=dataOfProducts.get(nameOfProducts.next());
             if(currentProduct.getCalorie()==0){
