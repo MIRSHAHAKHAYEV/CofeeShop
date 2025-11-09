@@ -1,10 +1,9 @@
 import Model.Order;
 import Service.OrderService;
 
-import java.util.Scanner;
+import static Util.Utils.sc;
 
 public class App {
-    public static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         OrderService os=new OrderService();
         os.addCoffeeOrSweet("Espresso", 3.50, "Tünd və qatı qəhvə");
